@@ -1,22 +1,8 @@
-# Android build files
-.gradle/
-build/
-**/build/
-local.properties
-
-# Android Studio
-.idea/
-*.iml
-
-# Log files
-*.log
-
-# Keystore
-*.jks
-
-# APKs
-*.apk
-
-# OS generated files
+/build/
+/**/build/
+/**/intermediates/
+/.idea/
+/.gradle/
+/local.properties
 .DS_Store
-Thumbs.db
+*.iml
