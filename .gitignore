@@ -2,6 +2,8 @@
 /.androidide/
 /**/build/
 /**/intermediates/
+.androidide/
+/.androidide/
 /.idea/
 /.gradle/
 /local.properties
