@@ -3130,7 +3130,7 @@ drawable ic_sun
 drawable ic_sync
 drawable ic_target
 drawable ic_telegram
-drawable ic_tool
+drawable ic_tools
 drawable ic_undo
 drawable ic_video
 drawable ic_view_split_vertical

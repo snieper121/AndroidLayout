@@ -4,7 +4,7 @@
             "outputFile": "jkas.androidpe.codeUtil.test.codeUtil-mergeDebugAndroidTestResources-21:/values-nl/values-nl.xml",
             "map": [
                 {
-                    "source": "/data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/res/values-nl/values-nl.xml",
+                    "source": "/data/user/0/com.itsaky.androidide/files/home/.gradle/caches/8.8/transforms/9208c4027926b29305e209399f3309bf/transformed/core-1.13.0/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/1e9719d47de0b2eb4d1a08fc416596c6/transformed/appcompat-1.7.0/res/values-nl/values-nl.xml",
+                    "source": "/data/user/0/com.itsaky.androidide/files/home/.gradle/caches/8.8/transforms/0eee58042167b022d0f3fabb88193be8/transformed/appcompat-1.7.0/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

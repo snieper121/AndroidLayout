@@ -3129,7 +3129,7 @@ int drawable ic_sun 0x7f0800f6
 int drawable ic_sync 0x7f0800f7
 int drawable ic_target 0x7f0800f8
 int drawable ic_telegram 0x7f0800f9
-int drawable ic_tool 0x7f0800fa
+int drawable ic_tools 0x7f0800fa
 int drawable ic_undo 0x7f0800fb
 int drawable ic_video 0x7f0800fc
 int drawable ic_view_split_vertical 0x7f0800fd
