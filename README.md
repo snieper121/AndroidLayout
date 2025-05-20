@@ -5,7 +5,14 @@
 <h2 align="center">Android Project Editor (AndroidPE)</h2>
 
 <p align="center">
-  A powerful and lightweight Android app for editing, previewing, and building Android projects right on your mobile device. Ideal for developers who want to code on the go.
+  A powerful and lightweight Android app for editing, previewing, and building Android projects right on your mobile device.<br>
+  <b>Ideal for developers who want to code on the go.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/jkasdbt/AndroidPE">GitHub Repository</a> • 
+  Maintained by <b>Mohan Sharma</b> • 
+  <b>Pull Requests Welcome!</b>
 </p>
 
 ---
@@ -13,20 +20,20 @@
 ### ✨ Features
 
 #### Layout & Resource Editor
-- [x] WYSIWYG Layout Editor
-- [x] Drag & Drop UI builder
-- [x] Real-time XML preview
-- [x] Property panel with auto-complete
-- [x] Strings, Colors, Dimens & Menu XML support
-- [x] Multi-module Gradle project support
+- [x] **WYSIWYG Layout Editor**
+- [x] **Drag & Drop UI builder**
+- [x] **Real-time XML preview**
+- [x] **Property panel with auto-complete**
+- [x] **Support for strings, colors, dimens, and menu XML**
+- [x] **Multi-module Gradle project support**
 
 #### Code Editing
-- [x] Integrated [Sora Editor](https://github.com/Rosemoe/sora-editor)
+- [x] Integrated with [Sora Editor](https://github.com/Rosemoe/sora-editor)
 - [ ] Java/Kotlin Language Server (LSP) *(coming soon!)*
 - [ ] Syntax-aware auto-formatter *(coming soon!)*
 
 #### Project Management
-- [x] Permissions & Activities management
+- [x] Easy permissions & activities management
 - [ ] Manifest assistant & component linker *(coming soon!)*
 
 #### Terminal & Compilation *(Upcoming)*
@@ -59,7 +66,8 @@
 
 ---
 
-### 🛠️ Upcoming Features
+### 🛠️ Roadmap
+
 - Embedded terminal via Termux libraries
 - Language Server Protocol (LSP) integration
 - Formatter for Java, Kotlin, XML, and Gradle
@@ -69,19 +77,33 @@
 
 ---
 
-### 💬 Contact & Community
+### 💬 Community
 
-- **Telegram**: [Join AndroidPE Group](https://t.me/android_pe)
+- **Telegram Group**: [Join AndroidPE Chat](https://t.me/android_pe)
 
 ---
 
-### 🙏 Credits
+### 🤝 Contributions
+
+We welcome **new contributors**, ideas, bug reports, and pull requests.  
+Whether you're fixing a typo or adding a major feature — your input is valued.
+
+> **Fork, star, and contribute** via [GitHub](https://github.com/moHaN-ShaArmA/AndroidPE)!
+
+---
+
+### 🙏 Special Thanks
+
+- **Mohan Sharma** – Maintainer
+- **[jkasdbt](https://github.com/jkasdbt)** – Creating something unique idea [AndroidPE](https://github.com/jkasdbt/AndroidPE)
 - **Rosette Bikangu** – Support & QA
 - **Shibu Barman** – Developer & Maintainer
-- **[Rosemoe](https://github.com/Rosemoe)** – For [Sora Editor](https://github.com/Rosemoe/sora-editor)
+- **[Rosemoe](https://github.com/Rosemoe)** – Creator of [Sora Editor](https://github.com/Rosemoe/sora-editor)
 - **[Akash Yadav](https://github.com/itsaky)** – Inspiration from [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE)
 
 ---
 
 ### 🪪 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
