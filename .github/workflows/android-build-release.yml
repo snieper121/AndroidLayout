@@ -11,6 +11,8 @@ env:
   BUILD_JAVA_VERSION: 17
   BUILD_JAVA_DIST: adopt
   GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4096m"
+  ANDROID_BUILD_TOOLS_VERSION: "34.0.4"
+  ANDROID_SDK_PLATFORM_VERSION: "34"  # Match compileSdkVersion in your build.gradle
 
 jobs:
   build:
@@ -30,6 +32,21 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
+      # Cache Android SDK build-tools and platforms for faster builds
+      - name: Cache Android SDK build-tools and platforms
+        uses: actions/cache@v4
+        id: cache-android-sdk
+        with:
+          path: |
+            ${{ env.ANDROID_SDK_ROOT }}/build-tools/${{ env.ANDROID_BUILD_TOOLS_VERSION }}
+            ${{ env.ANDROID_SDK_ROOT }}/platforms/android-${{ env.ANDROID_SDK_PLATFORM_VERSION }}
+          key: android-sdk-${{ env.ANDROID_BUILD_TOOLS_VERSION }}-${{ env.ANDROID_SDK_PLATFORM_VERSION }}-${{ runner.os }}
+
+      - name: Install Build Tools and Platform
+        if: steps.cache-android-sdk.outputs.cache-hit != 'true'
+        run: |
+          sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "platforms;android-${ANDROID_SDK_PLATFORM_VERSION}"
+
       - name: Grant permission to Gradle
         run: chmod +x ./gradlew
 
@@ -42,8 +59,13 @@ jobs:
           key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: gradle-${{ runner.os }}
 
+      - name: Show Java and Gradle versions
+        run: |
+          java -version
+          ./gradlew --version
+
       - name: Build debug APK
-        run: ./gradlew :app:assembleDebug
+        run: ./gradlew :app:assembleDebug --no-daemon --info
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
