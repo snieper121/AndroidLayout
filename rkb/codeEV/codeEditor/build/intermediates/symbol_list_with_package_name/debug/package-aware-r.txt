@@ -1,4 +1,0 @@
-jkas.androidpe.codeEditor
-id codeEditor
-id symbol_input
-layout layout_code_editor

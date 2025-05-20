@@ -1,5 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-id codeEditor
-id symbol_input
-layout layout_code_editor

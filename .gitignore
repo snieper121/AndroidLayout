@@ -1,11 +1,18 @@
-/build/
-/.androidide/
-/**/build/
-/**/intermediates/
-.androidide/
-/.androidide/
-/.idea/
-/.gradle/
-/local.properties
-.DS_Store
+# Ignore Android build folders
+**/build/
+**/intermediates/
+.gradle/
+.idea/
 *.iml
+.DS_Store
+/local.properties
+
+# AndroidIDE specific
+.androidide/
+
+# Ignore Gradle Wrapper logs and other generated files
+.gradle/
+gradle-app.setting
+
+# Ignore all logs and caches
+*.log

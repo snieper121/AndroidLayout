@@ -5,6 +5,7 @@ plugins {
 android {
     compileSdk = rootProject.ext.compileSdk
     buildToolsVersion = "34.0.0"
+
     namespace = rootProject.ext.applicationId
 
     defaultConfig {

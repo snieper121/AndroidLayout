@@ -1,3 +1,0 @@
-int id codeEditor 0x0
-int id symbol_input 0x0
-int layout layout_code_editor 0x0
