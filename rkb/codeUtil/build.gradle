@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdk rootProject.ext.compileSdk
-    buildToolsVersion rootProject.ext.buildTools
+    buildToolsVersion = "34.0.0"
     namespace rootProject.ext.packageName+".codeUtil"
     
     defaultConfig {
