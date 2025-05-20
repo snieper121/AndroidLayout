@@ -1,4 +1,5 @@
 /build/
+/.androidide/
 /**/build/
 /**/intermediates/
 /.idea/
