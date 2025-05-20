@@ -1,40 +1,87 @@
-<p align ="center"><img width='149px%' height='149px' src='images/androidpe_app_icon.png'></p>
-<h2 align="center">Android : Project Editor</h2>
-<br>
 <p align="center">
-  An application to efficiently and quickly manage your resources of your Android projects based on Gradle on your Android phone.
+  <img width="149" height="149" src="images/androidpe_app_icon.png">
 </p>
 
-### Features
-- [X] Layout Editor
-    - [X] WYSIWYG editing
-    - [X] Drag and drop
-    - [X] Component properties with value auto-completion
-    - [X] Preview mode
-- [X] strings, colors, dimens & menus can be modified by assistance
-- [X] Supports multi-module projects
-- [X] Manage activities, permissions, ...
-- [ ] Language servers for Code Editor
+<h2 align="center">Android Project Editor (AndroidPE)</h2>
 
-### Screenshots
-<div style="overflow: hidden">
- <img src="images/screenshot_dark_01.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_02.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_03.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_04.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_05.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_06.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_07.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_08.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
- <img src="images/screenshot_dark_09.jpg" alt="GeneralAppearance" width="30%" align="bottom" />
+<p align="center">
+  A powerful and lightweight Android app for editing, previewing, and building Android projects right on your mobile device. Ideal for developers who want to code on the go.
+</p>
+
+---
+
+### ✨ Features
+
+#### Layout & Resource Editor
+- [x] WYSIWYG Layout Editor
+- [x] Drag & Drop UI builder
+- [x] Real-time XML preview
+- [x] Property panel with auto-complete
+- [x] Strings, Colors, Dimens & Menu XML support
+- [x] Multi-module Gradle project support
+
+#### Code Editing
+- [x] Integrated [Sora Editor](https://github.com/Rosemoe/sora-editor)
+- [ ] Java/Kotlin Language Server (LSP) *(coming soon!)*
+- [ ] Syntax-aware auto-formatter *(coming soon!)*
+
+#### Project Management
+- [x] Permissions & Activities management
+- [ ] Manifest assistant & component linker *(coming soon!)*
+
+#### Terminal & Compilation *(Upcoming)*
+- [ ] Embedded Termux Terminal
+- [ ] Android app compilation (APK/AAB)
+- [ ] Logcat integration
+
+#### Git Support *(Upcoming)*
+- [ ] Git terminal and visual tools
+- [ ] One-click Push/Pull/Clone
+- [ ] Inline diff viewer & branch manager
+
+---
+
+### 📸 Screenshots
+
+<div align="center">
+  <img src="images/screenshot_dark_01.jpg" width="30%">
+  <img src="images/screenshot_dark_02.jpg" width="30%">
+  <img src="images/screenshot_dark_03.jpg" width="30%">
+  <br>
+  <img src="images/screenshot_dark_04.jpg" width="30%">
+  <img src="images/screenshot_dark_05.jpg" width="30%">
+  <img src="images/screenshot_dark_06.jpg" width="30%">
+  <br>
+  <img src="images/screenshot_dark_07.jpg" width="30%">
+  <img src="images/screenshot_dark_08.jpg" width="30%">
+  <img src="images/screenshot_dark_09.jpg" width="30%">
 </div>
 
-### Contact
-- Telegram: https://t.me/android_pe
+---
 
+### 🛠️ Upcoming Features
+- Embedded terminal via Termux libraries
+- Language Server Protocol (LSP) integration
+- Formatter for Java, Kotlin, XML, and Gradle
+- Real-time APK & AAB generation
+- Enhanced Git integration
+- Lint, error highlighting, and debugging support
 
-### Thanks to
-- Rosette Bikangu for Support
-- Shibu Barman
-- [Rosemoe](https://github.com/Rosemoe) for [sora-editor](https://github.com/Rosemoe/sora-editor)
-- [Akash Yadav](https://github.com/itsaky) for creating [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE)
+---
+
+### 💬 Contact & Community
+
+- **Telegram**: [Join AndroidPE Group](https://t.me/android_pe)
+
+---
+
+### 🙏 Credits
+- **Rosette Bikangu** – Support & QA
+- **Shibu Barman** – Developer & Maintainer
+- **[Rosemoe](https://github.com/Rosemoe)** – For [Sora Editor](https://github.com/Rosemoe/sora-editor)
+- **[Akash Yadav](https://github.com/itsaky)** – Inspiration from [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE)
+
+---
+
+### 🪪 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
