@@ -12,7 +12,7 @@ task clean(type: Delete) {
 // Global properties for all modules
 ext {
     compileSdk = 34
-    buildTools = "34.0.4"
+    buildTools = "34.0.2"
     targetSdk = 34  // Target SDK should ideally match compileSdk for consistency
     minSdk = 26
     packageName = "jkas.androidpe"
