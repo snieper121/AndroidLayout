@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="about">Sobre</string>
+    <string name="about_androidpe">Sobre o AndroidPE</string>
+    <string name="about_androidpe_desc">Saiba mais sobre o AndroidPE</string>
+    <string name="activities">Atividades</string>
+    <string name="activity">Atividade</string>
+    <string name="add">Adicionar</string>
+    <string name="add_activity">Adicionar atividade</string>
+    <string name="add_fragment">Adicionar fragmento</string>
+    <string name="add_path">Adicionar caminho</string>
+    <string name="add_projects_dependencies">Adicionar dependências de projetos</string>
+    <string name="added">Adicionado</string>
+    <string name="adding_file">Adicionando arquivos</string>
+    <string name="adding_missing_file">Adicionando arquivos ausentes</string>
+    <string name="additional_attributs">Atributos Adicionais</string>
+    <string name="all">Todos</string>
+    <string name="all_attributes">Todos os atributos</string>
+    <string name="already_exists">Já existe</string>
+    <string name="app_guard">Proteção de aplicativos</string>
+    <string name="app_name">AndroidPE</string>
+    <string name="app_name_description">Android: Editor de Projeto</string>
+    <string name="archive">Arquivo</string>
+    <string name="archiving">Arquivamento</string>
+    <string name="assist">Ajuda</string>
+    <string name="attr_will_be_delete_if_field_is_empty">O atributo será excluído se o campo estiver vazio.</string>
+    <string name="attribute">Atributo</string>
+    <string name="attributes">Atributos</string>
+    <string name="auto_save">Salvamento automático</string>
+    <string name="auto_save_code_time">Salvar automaticamente o tempo do código</string>
+    <string name="bad_idea">Má ideia</string>
+    <string name="before">Antes</string>
+    <string name="build_run">Construir e executar</string>
+    <string name="by_jkas">Por: JKas</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Desligar"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Chamada recebida"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada em andamento"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando uma ligação recebida"</string>
+    <string name="can_be_modify">Pode ser modificado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cant_access">Não consigo acessar</string>
+    <string name="cant_add">Não é possível adicionar</string>
+    <string name="cant_add_files">Não é possível adicionar arquivos</string>
+    <string name="cant_add_this_folder">Não é possível adicionar esta pasta</string>
+    <string name="cant_be_empty">Não pode estar vazio</string>
+    <string name="cant_be_modify">Não é possível modificar</string>
+    <string name="cant_create">Não é possível criar</string>
+    <string name="cant_delete">Não é possível excluir</string>
+    <string name="cant_delete_this_project">Não podemos excluir este projeto porque de acordo com nossas verificações este projeto não existe.</string>
+    <string name="cant_find_file">Não é possível encontrar o arquivo</string>
+    <string name="cant_find_folder">Não consigo encontrar a pasta</string>
+    <string name="cant_load">Não é possível carregar</string>
+    <string name="cant_load_data">Não é possível carregar dados</string>
+    <string name="cant_save">Não é possível salvar</string>
+    <string name="changelog">Registro de alterações</string>
+    <string name="changelog_desc">Veja as alterações que foram feitas nesta nova versão.</string>
+    <string name="choose">Escolher</string>
+    <string name="class_name">Nome da classe</string>
+    <string name="clone">Clone</string>
+    <string name="clone_repository">Clonar repositório</string>
+    <string name="close">Fechar</string>
+    <string name="close_all">Fechar tudo</string>
+    <string name="close_code_editor">Fechar editor de código</string>
+    <string name="closes_others">Fechar outros</string>
+    <string name="code">Código</string>
+    <string name="common_attributes">Atributos comuns</string>
+    <string name="complementary_application">Aplicação Complementar para IDEs</string>
+    <string name="completed_process">Processo concluído</string>
+    <string name="configure">Configurar</string>
+    <string name="contact_us">Contate-nos</string>
+    <string name="copied">Copiado</string>
+    <string name="copy">Cópia</string>
+    <string name="copy_path">Copiar caminho</string>
+    <string name="copying">Copiando</string>
+    <string name="create">Criar</string>
+    <string name="create_layout_file">Criar arquivo de layout</string>
+    <string name="created">Criado</string>
+    <string name="current">Atual</string>
+    <string name="current_module">Módulo Atual</string>
+    <string name="dark">Escuro</string>
+    <string name="declared_attributes">Atributos declarados</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_attr_if_empty">Exclua o atributo se a caixa de entrada estiver vazia.</string>
+    <string name="deleted">Excluído</string>
+    <string name="deleted_moved_or_renamed">Excluído, movido ou renomeado</string>
+    <string name="deleting">Excluindo</string>
+    <string name="dependencies">Dependências</string>
+    <string name="design">Projeto</string>
+    <string name="dialog_archive_description1">Você pode excluir arquivos e pastas, bem como adicionar uma senha.  Observe que o arquivo compactado será colocado na pasta chamada [.androidpe] na raiz do seu projeto. Caso exista outro arquivo, ele será sobrescrito pelo novo arquivo que será criado.</string>
+    <string name="edit">Editar</string>
+    <string name="edit_code">Editar código</string>
+    <string name="edit_mode">Modo de edição</string>
+    <string name="editor">Editor</string>
+    <string name="elements">Elementos</string>
+    <string name="empty_activity">Atividade Vazia</string>
+    <string name="empty_views_activity">Atividade de visualizações vazias</string>
+    <string name="enter_new_name_for_file">Digite o novo nome para o arquivo</string>
+    <string name="enter_new_name_for_file_folder">Digite o novo nome para arquivo ou pasta</string>
+    <string name="enter_new_name_for_folder">Digite o novo nome para a pasta</string>
+    <string name="error">Erro</string>
+    <string name="exclude">Excluir</string>
+    <string name="exclude_files">Excluir arquivos</string>
+    <string name="exclude_folders">Excluir pastas</string>
+    <string name="exit">Saída</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avançado"</string>
+    <string name="explorer">Explorador</string>
+    <string name="file">Arquivo</string>
+    <string name="file_created">Arquivo criado</string>
+    <string name="file_has_been_added">Os arquivos foram adicionados</string>
+    <string name="file_not_initialized">Arquivo não inicializado</string>
+    <string name="file_type">Tipo de arquivo</string>
+    <string name="files">Arquivos</string>
+    <string name="final_informations">Informações Finais</string>
+    <string name="find">Encontrar</string>
+    <string name="find_in_file">Localizar no arquivo</string>
+    <string name="find_in_folder">Encontrar na pasta</string>
+    <string name="finished">Finalizado</string>
+    <string name="folder">Pasta</string>
+    <string name="folder_created">Pasta criada</string>
+    <string name="folder_exists">Esta pasta já existe</string>
+    <string name="folder_not_found_error">Pasta não encontrada. Você quer criar um?</string>
+    <string name="folder_selected_impossible_enter_subfolders">Pasta já selecionada, impossível entrar para selecionar subpastas.</string>
+    <string name="folders">Pastas</string>
+    <string name="follow_system">Seguir sistema</string>
+    <string name="for_more_informations">Para mais informações</string>
+    <string name="found">Encontrado</string>
+    <string name="game_activity_cpp">Atividade de jogos (C++)</string>
+    <string name="general">Em geral</string>
+    <string name="github_link">https://github.com/jkas-dbt/AndroidPE.git</string>
+    <string name="gmail_link">jkas.dbt@gmail.com</string>
+    <string name="go_back">Volte</string>
+    <string name="google_restriction_folder_access">Restrições do Google:Não é possível acessar este diretório</string>
+    <string name="how_it_would_look_on_a_bottomnavigation">Como ficaria em um BottomNavigation</string>
+    <string name="how_it_would_look_on_a_toolbar">Como ficaria em uma barra de ferramentas</string>
+    <string name="if_you_think_gradle_file_not_contains_any_error">Na medida em que você acha que seus arquivos de configuração (Gradle) não contêm erros,</string>
+    <string name="imported">Importado</string>
+    <string name="imports">Importações</string>
+    <string name="in_process">Em processo</string>
+    <string name="info_a_batter_dependency_will_be_implemented">Uma melhor implementação de dependência será implementada para uma boa mudança de código nas próximas atualizações.</string>
+    <string name="info_check_your_xml_code">Verifique seu código XML no editor de código e tente novamente.</string>
+    <string name="info_coordinator_layout_attr_test">Observação: este é apenas um recurso experimental. É altamente recomendável que você consulte a documentação oficial do Google.</string>
+    <string name="info_no_data_to_display_was_found">Nenhum dado para exibição foi encontrado.</string>
+    <string name="info_the_info_will_be_save_when_modify_text">As informações serão salvas quando você modificar o texto</string>
+    <string name="info_there_are_module_depend_on_it">Existem módulos que dependem disso.</string>
+    <string name="information">Informação</string>
+    <string name="inside">Dentro</string>
+    <string name="invalide_entry">Entrada inválida</string>
+    <string name="invalide_name">Nome inválido</string>
+    <string name="is_in_progress">está em andamento</string>
+    <string name="jkas">JKas</string>
+    <string name="jkas_dev_tag">jkas.dbt();</string>
+    <string name="kotlin_script_for_gradle_config">Script Kotlin para configuração do Gradle</string>
+    <string name="language">Linguagem</string>
+    <string name="language_desc">escolha um idioma padrão.</string>
+    <string name="light">Luz</string>
+    <string name="loading">Carregando ...</string>
+    <string name="material_you_desc">Selecione o tema padrão (requer reinicialização do aplicativo)</string>
+    <string name="missing">Ausente</string>
+    <string name="missing_file">Arquivos ausentes</string>
+    <string name="modified">Modificado</string>
+    <string name="modify">Modificar</string>
+    <string name="module">Módulo</string>
+    <string name="module_language">Idioma do módulo</string>
+    <string name="module_name">Nome do módulo</string>
+    <string name="module_type">Tipo de módulo</string>
+    <string name="modules">Módulos</string>
+    <string name="modules_found">Módulos encontrados</string>
+    <string name="more">Mais</string>
+    <string name="move">Mover</string>
+    <string name="moving">Movendo-se</string>
+    <string name="msg_error_activity_creating">Ocorremos um erro ao criar a atividade.</string>
+    <string name="msg_error_androidmanifest_file_dose_not_contains_application_tag">A tag \"Application\" não foi encontrada no arquivo AndroidManifest.xml para extrair todas as atividades declaradas.</string>
+    <string name="msg_error_archiving_process">O processo de arquivamento foi interrompido devido a um erro ocorrido</string>
+    <string name="msg_error_crash_handler">um erro fatal foi detectado.  Desculpe, mas para o bom funcionamento, o projeto será reiniciado novamente.  Os detalhes do erro são anotados no arquivo</string>
+    <string name="msg_error_projects_not_found">Parece que você excluiu ou alterou o nome do projeto. o que infelizmente faz com que o projeto do editor feche.</string>
+    <string name="msg_error_rename_code">Modificar um arquivo ou pasta deste tipo tem consequências. Nenhuma funcionalidade é implementada para modificar também os demais elementos que utilizam este objeto para que tudo fique consistente (isto é: na medida em que haja referências).</string>
+    <string name="msg_error_when_parsing_values">Erro ao analisar valores.</string>
+    <string name="name">Nome</string>
+    <string name="name_pkg">Nome e nome do pacote</string>
+    <string name="native_cpp">Nativo (C++)</string>
+    <string name="new_file">Novo arquivo</string>
+    <string name="new_folder">Nova pasta</string>
+    <string name="new_module">Novo Módulo</string>
+    <string name="new_project">Novo Projeto</string>
+    <string name="no_activity">Nenhuma atividade</string>
+    <string name="no_activity_found">Nenhuma atividade encontrada</string>
+    <string name="no_data_selected">Nenhum dado selecionado</string>
+    <string name="no_module_is_selected">Nenhum módulo está selecionado</string>
+    <string name="no_modules_found">Nenhum módulo foi encontrado</string>
+    <string name="no_valide">Não valide</string>
+    <string name="not_a_folder">Não é uma pasta</string>
+    <string name="not_found">Não encontrado</string>
+    <string msgid="6573031135582639649" name="not_set">"Não definido"</string>
+    <string name="note">Observação</string>
+    <string name="open">Abrir</string>
+    <string name="open_a_project_directly">Abra um projeto diretamente</string>
+    <string name="open_last_project">Abre o último projeto que foi aberto</string>
+    <string name="open_with">Abrir com</string>
+    <string name="opening_project_description_1">Abrir um projeto que não foi detectado pelo AndroidPE é uma segunda forma de editar um projeto. Observe que a maioria das funcionalidades do AndroidPE são baseadas no Gradle.\n\nIsso significa que haverá acréscimos de determinados arquivos essenciais para a abertura do projeto no AndroidPE, desde que estes estejam ausentes.</string>
+    <string name="opening_project_error_nap">O AndroidPE não reconhece esta pasta selecionada como um projeto Android baseado em Gradle.\n\nIsso fará com que o editor do projeto feche.\nIsso pode acontecer se você selecionar uma pasta aleatória quando quiser aplicar alterações ao seu projeto pressionando o botão \ botão \"abrir\" na parte superior do gerenciador de projetos.\n\nNo entanto, se você acha que isso é um erro por parte do AndroidPE, entre em contato conosco em nosso grupo do Telegram para nos informar.</string>
+    <string name="other">Outro</string>
+    <string name="others_info">Avaliação do desenvolvedor relacionada ao aplicativo (Androidpe).</string>
+    <string name="package_name">Nome do pacote</string>
+    <string name="package_name_error">Erro no nome do pacote:\nexemple:my.packagename.appname</string>
+    <string name="package_name_prefix">Prefixo do nome do pacote</string>
+    <string name="package_name_prefix_model">com.empresa.</string>
+    <string name="package_name_prexif_error">Erro de prefixo do nome do pacote:\nexemple:my.packagename.\ndeve terminar com (.)</string>
+    <string name="packaged">Embalado</string>
+    <string name="packages">Pacote</string>
+    <string name="pass_word">Senha</string>
+    <string name="past">Passado</string>
+    <string name="pasted">Colado</string>
+    <string name="path_way">Caminho</string>
+    <string name="permission">Permissão</string>
+    <string name="permission_denied_blocked">Seu sistema está nos impedindo de realizar verificações porque nosso acesso ao armazenamento foi negado e não podemos mais perguntar a você.  no entanto, você deve fazer isso manualmente para permitir que o AndroidPE funcione corretamente.  você quer continuar?</string>
+    <string name="pkg_name_prefix_desc">Prefixo do nome do pacote que será usado por padrão.</string>
+    <string name="please_report_it_to_developer">Por favor, reporte o erro ao desenvolvedor.</string>
+    <string name="please_wait">Por favor, aguarde</string>
+    <string name="preference">Preferência</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
+    <string name="preferences">Preferências</string>
+    <string name="press_again_to_exit">pressione novamente para sair</string>
+    <string name="preview_mode">Modo de visualização</string>
+    <string name="process">Processo</string>
+    <string name="processing">Processamento</string>
+    <string name="project">Projeto</string>
+    <string name="project_compression">Compressão de Projeto</string>
+    <string name="project_created">Projeto criado</string>
+    <string name="project_explorer">Explorador de projetos</string>
+    <string name="project_initialization">Inicialização do projeto</string>
+    <string name="project_language">Idioma do Projeto</string>
+    <string name="project_name">Nome do projeto</string>
+    <string name="project_opening">Abertura do projeto</string>
+    <string name="project_opening_description">Se esta opção estiver ativada, a abertura do projeto será centrada no atendimento.  Caso contrário, o editor de código será a primeira visualização da interface de modificação do projeto.</string>
+    <string name="project_synchronizer">Sincronizador de Projeto</string>
+    <string name="project_synchronizer_description">Defina os caminhos onde o AndroidPE irá procurar os diferentes projetos existentes.</string>
+    <string name="projects">Projetos</string>
+    <string name="properties">Propriedades</string>
+    <string name="recommanded">Recomendado</string>
+    <string name="redo">Refazer</string>
+    <string name="reference">Referência</string>
+    <string name="references">Referências</string>
+    <string name="refresh">Atualizar</string>
+    <string name="remember_procress_launch_cant_be_stop">Lembre-se que uma vez iniciado o processo não será possível interrompê-lo.</string>
+    <string name="rename">Renomear</string>
+    <string name="reports">Relatórios</string>
+    <string name="request_permission_manager">A partir da versão 11 do Android, o acesso ao armazenamento é restrito.\nO AndroidPE precisa de permissão adicional para funcionar corretamente.\nVocê será redirecionado para a configuração do seu telefone para ativar isso.</string>
+    <string name="save">Salvar</string>
+    <string name="save_location">Salvar localização</string>
+    <string name="save_manager">Salvar gerenciador</string>
+    <string name="saved">Salvo</string>
+    <string name="sdk_minimum">SDK mínimo</string>
+    <string name="sdk_target">Destino do SDK</string>
+    <string name="search">Procurar</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="searching_for_modules">Procurando por módulos</string>
+    <string name="select">Selecione</string>
+    <string name="select_language">Selecione o idioma</string>
+    <string name="select_theme">Selecione o tema</string>
+    <string name="select_view_to_get_id">Selecione uma visualização para obter seu ID</string>
+    <string name="selected">Selecionado</string>
+    <string name="show_attributes">Mostrar atributos</string>
+    <string name="show_explorer">Mostrar explorador</string>
+    <string name="show_in_explorer">Mostrar no explorador</string>
+    <string name="started">Iniciado</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="surround">Cercar</string>
+    <string name="swipe_refresh_data_or_create_new_project">Deslize para atualizar os dados ou criar um novo projeto. Se necessário, adicione uma nova pasta nas configurações.</string>
+    <string name="swipe_up_down">Deslize para cima/para baixo</string>
+    <string name="switchs">Trocar</string>
+    <string name="telegram_link">https://t.me/android_pe</string>
+    <string name="template">Modelo</string>
+    <string name="thanks_to_all">Meu agradecimento especial a todos que participaram direta ou indiretamente na melhoria deste App.</string>
+    <string name="the_current_module_depend_others">O Módulo atualmente selecionado\nddepende de alguns outros módulos.</string>
+    <string name="the_current_module_does_not_depend_others">Este módulo atual\não depende de outro módulo.</string>
+    <string name="the_parent_can_only_have_one_child">O pai só pode ter um filho</string>
+    <string name="to">Para</string>
+    <string name="translate">Traduzir</string>
+    <string name="tree_component">Componente de árvore</string>
+    <string name="ui_mode_desc">Selecione o modo UI para o aplicativo</string>
+    <string name="understood">Entendido</string>
+    <string name="undo">Desfazer</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ATIVADO"</string>
+    <string name="value">Valor</string>
+    <string name="values">Valores</string>
+    <string name="warning">Aviso</string>
+    <string name="warning_add_view_constraints">A visualização selecionada não pode ter filhos.  Caso seja uma visualização personalizada ou você acha que é um erro por parte da aplicação, faça isso manualmente no código XML e nos informe o problema para fazermos um bom acompanhamento da aplicação.</string>
+    <string name="warning_before_translate_string_res">Antes de continuar, saiba que todos os dados vinculados aos idiomas selecionados serão excluídos para dar lugar às notícias.\n Deseja continuar?</string>
+    <string name="warning_close_code_editor">Deseja fechar o editor de código?</string>
+    <string name="warning_delete">Esta ação é irreversível, deseja excluir</string>
+    <string name="warning_initialization_falure">Falha na inicialização</string>
+    <string name="warning_module_deleting">A remoção deste módulo pode causar erros no seu código.  O AndroidPE não será responsável por isso de forma alguma.</string>
+    <string name="warning_projects_deleting">Tem certeza de que deseja continuar porque o item a ser excluído é o projeto atual. Observe que não será mais possível interromper isso depois que o processo for iniciado.</string>
+    <string name="warning_unsaved_content">Há conteúdo não salvo. Deseja salvar todos os dados antes de fechar?</string>
+    <string name="warning_view_not_parent">Esta visualização não é uma visualização pai, pois pode causar problemas ao compilar seu código. Você quer continuar mesmo assim?</string>
+    <string name="we_cannot_find_info_about_activity">Não conseguimos encontrar informações sobre esta atividade.</string>
+    <string name="what_would_it_look_on_a_click_event">Como seria um evento de clique (botão, imagem, ...).\"</string>
+    <string name="xml_file_name">Nome do arquivo XML (Layout)</string>
+    <string name="yes">Sim</string>
+    <string name="you_can_see_the_preview_template">Você pode ver uma prévia de como serão as alterações feitas (modelo).</string>
+</resources>

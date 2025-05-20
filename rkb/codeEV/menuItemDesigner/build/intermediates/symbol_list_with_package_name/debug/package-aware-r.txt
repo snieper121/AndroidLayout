@@ -1,0 +1,17 @@
+jkas.androidpe.menuItemDesigner
+id bottomNav
+id btnEditor
+id btnTemplate
+id btnTest
+id icon
+id lin
+id linSub
+id linTreeView
+id toggleBtn
+id toolbar
+id tvMoreInfo
+id tvTitle
+id viewFlipper
+layout layout_item_editor_adapter
+layout layout_menu_item_designer
+menu template_empty

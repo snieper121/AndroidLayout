@@ -1,0 +1,67 @@
+plugins {
+    alias libs.plugins.android.application
+}
+
+android {
+    compileSdk = rootProject.ext.compileSdk
+    buildToolsVersion = rootProject.ext.buildTools
+    
+    namespace = rootProject.ext.packageName
+    defaultConfig {
+        applicationId = rootProject.ext.packageName
+        minSdk = rootProject.ext.minSdk
+        targetSdk = rootProject.ext.targetSdk
+        versionCode = rootProject.ext.versionCode
+        versionName = rootProject.ext.versionName
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled = true
+    }
+    
+    buildFeatures {
+        viewBinding = true
+    }
+    
+    lint {
+        checkReleaseBuilds = false
+    }
+}
+
+dependencies {
+    // Project modules
+    implementation project(':rkb:codeEV:codeEditor')
+    implementation project(':rkb:resourcesUtils')
+    implementation project(':rkb:codeEV:layoutUiDesigner')
+    implementation project(':rkb:codeEV:mainEditorView')
+    implementation project(':rkb:rkbDataSaver')
+    implementation project(':rkb:codeUtil')
+    implementation project(':rkb:project')
+    implementation project(':rkb:logger')
+    implementation project(':rkb:projectUtils')
+    implementation project(':rkb:explorer')
+    implementation project(':rkb:resources')
+    
+    // AndroidX libraries
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.coordinatorlayout
+    implementation libs.androidx.swiperefreshlayout
+    implementation libs.androidx.splashscreen
+    implementation libs.androidx.preference
+    
+    // Google Material
+    implementation libs.google.material
+    
+    // Other libraries
+    implementation libs.zip4j
+    implementation libs.lottie
+    implementation libs.androidsvg
+    
+    // Core library desugaring (Java 8+ APIs)
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.3"
+}

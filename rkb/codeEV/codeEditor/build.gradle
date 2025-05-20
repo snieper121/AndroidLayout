@@ -1,0 +1,43 @@
+plugins {
+    alias libs.plugins.android.library
+    alias libs.plugins.kotlin
+}
+
+android {
+    namespace = "${rootProject.ext.packageName}.codeEditor"
+    compileSdk = rootProject.ext.compileSdk
+    buildToolsVersion = rootProject.ext.buildTools
+
+    defaultConfig {
+        minSdk = rootProject.ext.minSdk
+        targetSdk = rootProject.ext.targetSdk
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+    implementation project(':rkb:project')
+    implementation project(':rkb:projectUtils')
+    implementation project(':rkb:resources')
+    implementation project(':rkb:resourcesUtils')
+    implementation project(':rkb:codeUtil')
+
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.coordinatorlayout
+    implementation libs.google.material
+
+    implementation platform("io.github.Rosemoe.sora-editor:bom:0.23.4")
+    implementation "io.github.Rosemoe.sora-editor:editor"
+    implementation "io.github.Rosemoe.sora-editor:language-textmate"
+
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.3"
+}

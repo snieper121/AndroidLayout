@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jkas.androidpe.codeUtil.test" >
+4
+5    <uses-sdk
+5-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:5:42-71
+8
+9    <instrumentation
+9-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:11:5-15:78
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:11:22-75
+11        android:functionalTest="false"
+11-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:13:22-53
+13        android:label="Tests for jkas.androidpe.codeUtil.test"
+13-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:15:22-76
+14        android:targetPackage="jkas.androidpe.codeUtil.test" />
+14-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:12:22-74
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+16-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-64
+17    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+17-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-82
+17-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-79
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+18-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+19-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+20
+21    <permission
+21-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+22        android:name="jkas.androidpe.codeUtil.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="jkas.androidpe.codeUtil.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:7:5-9:19
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/8e2103925b17c7182c73b35a7d80cb91/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:hardwareAccelerated="true"
+31-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-43
+32        android:preserveLegacyExternalStorage="true"
+32-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-53
+33        android:requestLegacyExternalStorage="true"
+33-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-52
+34        android:supportsRtl="true" >
+34-->[:rkb:codeUtil] /storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-35
+35        <uses-library android:name="android.test.runner" />
+35-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:8:9-60
+35-->/storage/emulated/0/.coder/.aproject/AndroidPE-main/AndroidPE-main/rkb/codeUtil/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest16730199726563832096.xml:8:23-57
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+39            android:authorities="jkas.androidpe.codeUtil.test.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/87cc04983546667be5e1b98a3e18e4f6/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/0235db048dff8c72e95208ef21c1751d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/0235db048dff8c72e95208ef21c1751d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/0235db048dff8c72e95208ef21c1751d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+48-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+49                android:value="androidx.startup" />
+49-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+50        </provider>
+51
+52        <receiver
+52-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+53            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+53-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+54            android:directBootAware="false"
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+55            android:enabled="true"
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+56            android:exported="true"
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+57            android:permission="android.permission.DUMP" >
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+58            <intent-filter>
+58-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+59                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+60            </intent-filter>
+61            <intent-filter>
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+62                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+63            </intent-filter>
+64            <intent-filter>
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+65                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+66            </intent-filter>
+67            <intent-filter>
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+68                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/785543489f98807150c99099ec1e4f22/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+69            </intent-filter>
+70        </receiver>
+71    </application>
+72
+73</manifest>

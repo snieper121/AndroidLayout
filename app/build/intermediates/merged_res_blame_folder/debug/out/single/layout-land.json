@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "jkas.androidpe.app-mergeDebugResources-45:/layout-land/fragment_pe_main.xml",
+        "source": "jkas.androidpe.app-main-48:/layout-land/fragment_pe_main.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-mergeDebugResources-45:/layout-land/activity_project_editor.xml",
+        "source": "jkas.androidpe.app-main-48:/layout-land/activity_project_editor.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-mergeDebugResources-45:/layout-land/activity_main.xml",
+        "source": "jkas.androidpe.app-main-48:/layout-land/activity_main.xml"
+    }
+]

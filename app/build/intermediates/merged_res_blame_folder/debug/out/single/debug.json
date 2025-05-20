@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_create_new_project.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_create_new_project.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_activity_about_app.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/activity_about_app.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_dialog_string_translater.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/dialog_string_translater.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_dialog_archive.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/dialog_archive.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/menu_main_code_editor.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/menu/main_code_editor.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_fragment_pe_explorer.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/fragment_pe_explorer.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_pe_manager_view_properties_activity.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_pe_manager_view_properties_activity.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_activity_preferences.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_settings_path_to_project.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_settings_path_to_project.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_pe_manager_view_activities.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_pe_manager_view_activities.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_pe_manager_view_dialog_perf.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_pe_manager_view_dialog_perf.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout-land_fragment_pe_main.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout-land/fragment_pe_main.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_activity_project_editor.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/activity_project_editor.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_infos_view.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_infos_view.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_ui_preference_dialog_sync_project.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/ui_preference_dialog_sync_project.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_path_to_project.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_path_to_project.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_fragment_pe_main.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/fragment_pe_main.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout-land_activity_main.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_fragment_pe_manager.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/fragment_pe_manager.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_activity_code_editor.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/activity_code_editor.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_project_view.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_project_view.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_pe_main_scl_pkg_view_data.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_pe_main_scl_pkg_view_data.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout-land_activity_project_editor.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout-land/activity_project_editor.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/layout_layout_pe_main_scl_pkg.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/layout/layout_pe_main_scl_pkg.xml"
+    },
+    {
+        "merged": "jkas.androidpe.app-merged_res-46:/menu_main_project_type.xml.flat",
+        "source": "jkas.androidpe.app-main-48:/menu/main_project_type.xml"
+    }
+]

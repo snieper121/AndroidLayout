@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jkas.androidpe.codeUtil" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:5:5-67
+7-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:5:22-64
+8    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+8-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:6:5-82
+8-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:6:22-79
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:7:5-80
+9-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:7:22-77
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:8:5-81
+10-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:8:22-78
+11
+12    <application
+12-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:10:5-14:54
+13        android:hardwareAccelerated="true"
+13-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:11:9-43
+14        android:preserveLegacyExternalStorage="true"
+14-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:13:9-53
+15        android:requestLegacyExternalStorage="true"
+15-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:14:9-52
+16        android:supportsRtl="true" />
+16-->/storage/emulated/0/.coder/.aproject/AndroidPE/rkb/codeUtil/src/main/AndroidManifest.xml:12:9-35
+17
+18</manifest>

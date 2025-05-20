@@ -1,0 +1,38 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdk rootProject.ext.compileSdk
+    buildToolsVersion rootProject.ext.buildTools
+    namespace rootProject.ext.packageName + ".resourcesUtils"
+    
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+    }
+    
+    compileOptions {
+		sourceCompatibility JavaVersion.VERSION_17
+		targetCompatibility JavaVersion.VERSION_17
+	}
+    
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation libs.androidx.appcompat
+    implementation libs.google.material
+    implementation libs.color.picker
+    implementation libs.androidsvg
+    implementation libs.picasso
+    implementation libs.group.box.layout
+    implementation libs.androidsvg
+    
+    implementation project(':rkb:project')
+    implementation project(':rkb:codeUtil')
+    implementation project(':rkb:resources')
+    implementation project(':rkb:logger')
+}
