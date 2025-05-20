@@ -14,7 +14,7 @@ ext {
     compileSdk = 34
     targetSdk = 34  // Target SDK should ideally match compileSdk for consistency
     minSdk = 26
-    packageName = "jkas.androidpe"
+    applicationId = "jkas.androidpe"
     versionCode = 181102
     versionName = "1.76"
 }
