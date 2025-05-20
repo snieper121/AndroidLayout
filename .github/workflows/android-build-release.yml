@@ -12,7 +12,8 @@ env:
   BUILD_JAVA_DIST: adopt
   GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4096m"
   ANDROID_BUILD_TOOLS_VERSION: "34.0.4"
-  ANDROID_SDK_PLATFORM_VERSION: "34"  # Match compileSdkVersion in your build.gradle
+  ANDROID_SDK_PLATFORM_VERSION: "34"
+  ANDROID_SDK_ROOT: ${{ github.workspace }}/android-sdk  # Define Android SDK path here
 
 jobs:
   build:
@@ -31,26 +32,13 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      # Cache Android SDK build-tools and platforms for faster builds
-      - name: Cache Android SDK build-tools and platforms
-        uses: actions/cache@v4
-        id: cache-android-sdk
         with:
-          path: |
-            ${{ env.ANDROID_SDK_ROOT }}/build-tools/${{ env.ANDROID_BUILD_TOOLS_VERSION }}
-            ${{ env.ANDROID_SDK_ROOT }}/platforms/android-${{ env.ANDROID_SDK_PLATFORM_VERSION }}
-          key: android-sdk-${{ env.ANDROID_BUILD_TOOLS_VERSION }}-${{ env.ANDROID_SDK_PLATFORM_VERSION }}-${{ runner.os }}
+          api-level: ${{ env.ANDROID_SDK_PLATFORM_VERSION }}
+          build-tools: ${{ env.ANDROID_BUILD_TOOLS_VERSION }}
+          # cache: true   # optional, automatically caches SDK components
 
-      - name: Install Build Tools and Platform
-        if: steps.cache-android-sdk.outputs.cache-hit != 'true'
-        run: |
-          sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "platforms;android-${ANDROID_SDK_PLATFORM_VERSION}"
-
-      - name: Grant permission to Gradle
-        run: chmod +x ./gradlew
-
-      - name: Restore Gradle cache
+      # Cache Gradle wrapper and caches
+      - name: Cache Gradle
         uses: actions/cache@v4
         with:
           path: |
@@ -58,6 +46,9 @@ jobs:
             ~/.gradle/wrapper
           key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: gradle-${{ runner.os }}
+
+      - name: Grant permission to Gradle
+        run: chmod +x ./gradlew
 
       - name: Show Java and Gradle versions
         run: |
