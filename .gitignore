@@ -9,6 +9,7 @@
 
 # AndroidIDE specific
 .androidide/
+.androidpe/
 
 # Ignore Gradle Wrapper logs and other generated files
 .gradle/
