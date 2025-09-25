@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 1. Добавляем пространство имен tools -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Основные разрешения, которые не меняются -->
+    <!-- Основные разрешения -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-    <!-- RECEIVE_NOTIFICATIONS - это системное разрешение, его не нужно объявлять -->
 
-    <!-- =================================================================== -->
-    <!--           ИСПРАВЛЕННЫЙ БЛОК РАЗРЕШЕНИЙ ДЛЯ ХРАНИЛИЩА             -->
-    <!-- =================================================================== -->
+    <!-- 2. "Защищаем" наше главное разрешение от изменений другими модулями -->
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:node="replace" />
 
-    <!-- 1. Разрешение для Android 11 (API 30) и выше. Дает доступ ко всем файлам. -->
-    <!-- Именно эта строка заставит систему показать кнопку в настройках. -->
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-
-    <!-- 2. Старые разрешения для хранилища, ТОЛЬКО для версий Android ниже 10. -->
-    <!-- Атрибут android:maxSdkVersion="29" говорит системе не использовать их на Android 11+ -->
+    <!-- Старые разрешения для совместимости -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
 
@@ -34,15 +31,12 @@
         android:largeHeap="true"
         android:resizeableActivity="true"
         android:screenOrientation="portrait"
-        android:theme="@style/Theme.Application">
+        android:theme="@style/Theme.Application"
         
-        <!-- 
-          ВАЖНО: Удаляем эти атрибуты. Они конфликтуют с MANAGE_EXTERNAL_STORAGE 
-          и являются причиной того, что кнопка в настройках не появляется.
-        -->
-        <!-- android:preserveLegacyExternalStorage="true" -->
-        <!-- android:requestLegacyExternalStorage="true" -->
-
+        <!-- 3. Принудительно удаляем конфликтующий атрибут, если он появится -->
+        tools:remove="android:requestLegacyExternalStorage">
+        
+        <!-- ... все ваши activity остаются без изменений ... -->
         <activity
             android:name=".app.CrashHandler$CrashActivity"
             android:theme="@style/Theme.Material3.DayNight" />
