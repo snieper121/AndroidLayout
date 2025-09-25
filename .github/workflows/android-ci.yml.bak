@@ -40,7 +40,7 @@ jobs:
           ~/.gradle/caches
           ~/.gradle/wrapper
         # Ключ кэша. Если файлы build.gradle.kts изменятся, кэш будет создан заново.
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}-v2
         # Ключ для восстановления, если точного совпадения не найдено
         restore-keys: |
           ${{ runner.os }}-gradle-
